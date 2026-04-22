@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Video Editing Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0f0f0f;
+      color: white;
+    }
+    header {
+      padding: 20px;
+      text-align: center;
+      background: #1f1f1f;
+    }
+    h1 { margin: 0; }
+    nav a {
+      margin: 0 10px;
+      color: #00ffcc;
+      text-decoration: none;
+    }
+    .section {
+      padding: 40px;
+      text-align: center;
+    }
+    .videos iframe {
+      width: 300px;
+      height: 170px;
+      margin: 10px;
+      border-radius: 10px;
+    }
+    .contact input, .contact textarea {
+      width: 80%;
+      padding: 10px;
+      margin: 10px;
+      border-radius: 5px;
+      border: none;
+    }
+    button {
+      padding: 10px 20px;
+      background: #00ffcc;
+      border: none;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Mannat Soni</h1>
+  <p>Video Editor | Storytelling through visuals</p>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#work">Work</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section id="about" class="section">
+  <h2>About Me</h2>
+  <p>I am a passionate video editor who creates cinematic and engaging content.</p>
+</section>
+
+<section id="work" class="section videos">
+  <h2>My Work</h2>
+  <iframe src="https://www.youtube.com/embed/YOUR_VIDEO_1"></iframe>
+  <iframe src="https://www.youtube.com/embed/YOUR_VIDEO_2"></iframe>
+  <iframe src="https://www.youtube.com/embed/YOUR_VIDEO_3"></iframe>
+</section>
+
+<section id="contact" class="section contact">
+  <h2>Contact Me</h2>
+  <input type="text" placeholder="Your Name"><br>
+  <input type="email" placeholder="Your Email"><br>
+  <textarea placeholder="Your Message"></textarea><br>
+  <button onclick="sendMessage()">Send</button>
+</section>
+
+<script>
+  function sendMessage() {
+    alert("Message feature coming soon! Connect via Instagram or Email.");
+  }
+</script>
+
+</body>
+</html>
